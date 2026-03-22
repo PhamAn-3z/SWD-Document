@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
+  <diagram name="Trang-1" id="zupI_UmcAw1PQDiaSC5E">
+    <mxGraphModel dx="1264" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-1" parent="1" style="whiteSpace=wrap;html=1;" value="browse doctors by specialty" vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Patients" vertex="1">
+          <mxGeometry height="80" width="80" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-3" parent="1" style="whiteSpace=wrap;html=1;" value="view doctor profiles" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-5" parent="1" style="whiteSpace=wrap;html=1;" value="book appointments" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-7" parent="1" style="whiteSpace=wrap;html=1;" value="track appointment status." vertex="1">
+          <mxGeometry height="60" width="120" x="10" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-8" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="cancel an appointment after booking" vertex="1">
+          <mxGeometry height="110" width="110" x="200" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-9" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="sometimes they may forget the appointment." vertex="1">
+          <mxGeometry height="110" width="110" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-10" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Cancelled" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Doctors" vertex="1">
+          <mxGeometry height="80" width="80" x="670" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-12" parent="1" style="whiteSpace=wrap;html=1;" value="view patient records." vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-13" parent="1" style="whiteSpace=wrap;html=1;" value="manage their availability schedules" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-14" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="available" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-15" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="booked" vertex="1">
+          <mxGeometry height="60" width="120" x="720" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-16" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="busy" vertex="1">
+          <mxGeometry height="60" width="120" x="540" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-17" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="clinics&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="80" x="960" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="900" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="system" vertex="1">
+          <mxGeometry height="80" width="80" x="1160" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="1010" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="1110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-23" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Appointment" vertex="1">
+          <mxGeometry height="80" width="80" x="340" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-28" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Specialty" vertex="1">
+          <mxGeometry height="80" width="80" x="800" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-30" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="filter,&amp;nbsp;View Detail, Create,&amp;nbsp;Query status" vertex="1">
+          <mxGeometry height="80" width="120" x="354" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-31" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="No-show" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="M" vertex="1">
+          <mxGeometry height="30" width="60" x="550" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-35" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="doctor: at one time just works at one clinic,&amp;nbsp;moved to other clinic,&amp;nbsp;doctor’s schedule will be rearranged" vertex="1">
+          <mxGeometry height="110" width="390" x="940" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="710" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="770" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="iBOA9yy1MUVPWXum8H6O-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Shedule" vertex="1">
+          <mxGeometry height="80" width="80" x="720" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
