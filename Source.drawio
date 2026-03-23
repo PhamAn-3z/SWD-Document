@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.4">
   <diagram name="Trang-1" id="zupI_UmcAw1PQDiaSC5E">
-    <mxGraphModel dx="1264" dy="1778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,54 @@
         </mxCell>
         <mxCell id="iBOA9yy1MUVPWXum8H6O-38" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Shedule" vertex="1">
           <mxGeometry height="80" width="80" x="720" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;hljs-keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;AppointmentSender&lt;/span&gt;" vertex="1">
+          <mxGeometry height="86" width="186" x="254" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-3" parent="U8wYrKkGVE0YUIuTOfpy-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="186" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-4" parent="U8wYrKkGVE0YUIuTOfpy-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="186" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-5" parent="U8wYrKkGVE0YUIuTOfpy-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;hljs-function&quot;&gt;&lt;span class=&quot;hljs-title&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(String message)&lt;/span&gt;&lt;/span&gt;;" vertex="1">
+          <mxGeometry height="26" width="186" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SMSSender" vertex="1">
+          <mxGeometry height="86" width="186" x="550" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-7" parent="U8wYrKkGVE0YUIuTOfpy-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="186" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-8" parent="U8wYrKkGVE0YUIuTOfpy-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="186" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-9" parent="U8wYrKkGVE0YUIuTOfpy-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;hljs-title&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(String message)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="186" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ZaloSender" vertex="1">
+          <mxGeometry height="86" width="186" x="800" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-11" parent="U8wYrKkGVE0YUIuTOfpy-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="186" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-12" parent="U8wYrKkGVE0YUIuTOfpy-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="186" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-13" parent="U8wYrKkGVE0YUIuTOfpy-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;hljs-title&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(String message)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="186" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AppointmentManager" vertex="1">
+          <mxGeometry height="170" width="240" x="254" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-15" parent="U8wYrKkGVE0YUIuTOfpy-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
+          <mxGeometry height="26" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-16" parent="U8wYrKkGVE0YUIuTOfpy-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="240" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="U8wYrKkGVE0YUIuTOfpy-17" parent="U8wYrKkGVE0YUIuTOfpy-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;span class=&quot;hljs-keyword&quot;&gt;private&lt;/span&gt; List&amp;lt;AppointmentSender&amp;gt; senders = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ArrayList&amp;lt;&amp;gt;();&lt;div&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(AppointmentSender sender)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;unlink&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(AppointmentSender sender)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;bookAppointment&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(String details)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-params&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;hljs-title&quot;&gt;sendMessages&lt;/span&gt;&lt;span class=&quot;hljs-params&quot;&gt;(String message)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="240" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
